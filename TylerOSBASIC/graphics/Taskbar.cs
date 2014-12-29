@@ -21,7 +21,8 @@ class Taskbar {
 		if (taskbarHidden == true) {
 			GUI.shape(0, 199, 320, 1, 56); // taskbar hidden
 		} else if (taskbarHidden == false) {
-			GUI.shape(0, 189, 320, 11, 56); // taskbar shown
+			GUI.shape(0, 188, 320, 12, 56); // taskbar shown
+			FontDrawer.WriteText(Cosmos.Hardware.RTC.Hour + ":" + Cosmos.Hardware.RTC.Minute, 300 - 9, 200 - 9, 0);
 		}
 	}
 }

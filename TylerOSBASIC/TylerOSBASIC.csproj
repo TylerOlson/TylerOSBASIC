@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleModule.cs" />
-    <Compile Include="graphics\DrawLetter.cs" />
+    <Compile Include="graphics\Font8x8.cs" />
+    <Compile Include="graphics\FontDrawer.cs" />
     <Compile Include="graphics\GUI.cs" />
     <Compile Include="graphics\Taskbar.cs" />
     <Compile Include="input\ACPI.cs" />
